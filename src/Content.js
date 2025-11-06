@@ -27,18 +27,24 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
 
 export const content = {
   nav: [
     {
       link: "#home",
       icon: TbSmartHome,
+    },
+    {
+      link: "#what-i-know",
+      icon: FaCode,
     },
     {
       link: "#contact",
@@ -187,9 +193,9 @@ export const content = {
         link: "mailto:nimeshmeh7a@gmail.com",
       },
       {
-        text: "+977 9807356040",
-        icon: MdCall,
-        link: "https://wa.me/9807356040",
+        text: "nimeshmeh7a",
+        icon: FaGithub,
+        link: "https://github.com/nimeshmeh7a",
       },
       {
         text: "nimeshmeh7a",
