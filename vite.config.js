@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Root path for custom domain
+  base: '/nimeshmehta.com.np/', // GitHub Pages base path
 })
