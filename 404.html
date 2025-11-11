@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0;url=/" />
+    <script>
+      (function () {
+        var redirectPath =
+          window.location.pathname +
+          window.location.search +
+          window.location.hash;
+        sessionStorage.setItem("gh_redirect_path", redirectPath);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
