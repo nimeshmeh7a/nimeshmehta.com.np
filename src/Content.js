@@ -35,6 +35,7 @@ import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 export const content = {
   nav: [
@@ -49,6 +50,10 @@ export const content = {
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
+    },
+    {
+      link: "#cv",
+      icon: HiOutlineDocumentText,
     },
   ],
   hero: {
